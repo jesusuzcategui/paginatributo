@@ -234,6 +234,7 @@ img {
 
 }
 
+
 footer {
     background-color:#252B42;
     padding: 1rem 0;
@@ -243,4 +244,13 @@ footer {
     list-style: none;
     line-height: 2.5em;
     float: left;
+}
+.redesfooter {
+    display: flex;
+    
+}
+.redesfooter a {
+    color: white;
+    font-size: 20px;
+    
 }
