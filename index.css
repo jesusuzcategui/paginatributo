@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.navegacion {
+    padding: 1%;
+    justify-content:space-between;
+    position:absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.navegacion-logo {
+    width: 200px;
+
+}
+.barra_navegacion{
+    padding: 10px;
+    display:flex;
+    list-style-type: none;
+    background-color:rgba(34, 43, 50, 1);
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+.barra_navegacion li a{
+    margin: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+}
+.redes a {
+    margin: 10px;
+    color: white;
+    width: 80px;
+    font-size: 36px;
+    
+}
+.imagen_principal {
+    background-image:url("./Imagenes/Badroomprincipal2.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 56vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    padding-bottom: 12%;
+    font-size: 36px;
+}
+.image_principal_button {
+    background-color:#2091F9;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 30px;
+    border:none;    
+}
+.image_principal_titulo {
+    margin-bottom: 80px; 
+    
+}
+
+.diseño_hogar-contenido {
+    text-align: center;
+    width: 30%;
+    margin:auto;
+    font-size: 30px;
+}
+.diseño_hogar-titulo {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.servicios {
+    display: flex ;
+    padding: 5%;
+    margin: 5%;
+    gap: 20px; 
+}
+.servicios-caja {
+    margin: 60px;
+    color: black;
+    text-decoration: none;
+    justify-content:space-between;
+    text-align:center;
+    padding: 5px;
+    font-size: 30px;
+    
+}
+
+.servicios-caja img {
+    width: 120px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.video {
+    text-align: center;
+    padding: 50px;
+    margin: 1px;
+}
+
+.video iframe {
+    border padding: 200% ;
+    margin-top: -10% ;
+}
+.nosotros {
+    display:flex;
+    background-color:#E7E3C4; 
+    padding: 30px; 
+    align-items: center;
+}
+
+.nosotros_imagen {
+    width: 2190px;
+    padding: 10px;
+    margin: 10px;
+}
+.nosotros-parrafo {
+    text-align: justify;
+    padding:0;
+    margin: 10px;
+}
+
+.nosotros-titulo{
+    font-size: 50px;
+}
+
+.nosotros-parrafo {
+    font-size: 30px;
+    margin-top: 15px;
+    padding-left: 0;
+
+}
+
+.nosotros-button {
+
+    background-color:#2091F9;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    border:none;  
+    margin-top: 20px;  
+}
+
+.container  {
+    width: 100%;
+    max-width: 80%;
+    margin: auto;
+}
+
+.container.container--small {
+    max-width: 60%;
+}
+
+.hacemos {
+    display:flex;
+
+}
+
+.hacemos__figure {
+    width: 35%;
+    height: 600px;
+    margin-right: 2rem;
+}
+
+.hacemos_imagen {
+    width: 100%;
+    padding-bottom: 125%;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hacemos_imagen img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.hacemos-texto {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.hacemos-texto .hacemos-titulo{
+    font-size: 50px;
+}
+.hacemos-texto .hacemos-lista{
+    font-size: 30px;
+    margin-top: 15px;
+    padding-left: 0;
+}
+
+.hacemos-button{
+    background-color:#2091F9;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 20px;
+    border:none;  
+    margin-top: 20px;  
+}
+
+.footerdv {
+   
+    color:white;
+    display:flex;
+    width: 400px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+
+.footerdv_redes a {
+    margin: 10px;
+    color: white;
+    display: flex;
+    line-height: 2.0em;
+
+}
+
+footer {
+    background-color:#252B42;
+    padding: 1rem 0;
+}
+
+.footerdv_lista{
+    list-style: none;
+    line-height: 2.5em;
+    float: left;
+}
